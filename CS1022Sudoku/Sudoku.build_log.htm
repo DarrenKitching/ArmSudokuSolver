@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Darren Kitching, Trinity, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARM.DLL V5.24.1
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Darren\Desktop\sudoku\CS1022Sudoku\Sudoku.uvproj
+Project File Date:  03/03/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Simulator'
+assembling LPC2400.s...
+assembling Sudoku.s...
+compiling main.c...
+support\main.c(1): error:  #5: cannot open source input file "LPC23xx.H": No such file or directory
+  #include <LPC23xx.H>                    /* LPC23xx/LPC24xx definitions        */
+support\main.c: 0 warnings, 1 error
+compiling Serial.c...
+support\Serial.c(11): error:  #5: cannot open source input file "LPC23xx.H": No such file or directory
+  #include <LPC23xx.H>                    /* LPC23xx/LPC24xx definitions        */
+support\Serial.c: 0 warnings, 1 error
+compiling Retarget.c...
+".\Sudoku.axf" - 2 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
